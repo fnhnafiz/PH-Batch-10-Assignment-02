@@ -4,9 +4,137 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fitness</title>
+    <!---Fonts awesome-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet" />
+
+    <!---Fonts Awesome Icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!---Css styles link-->
     <link rel="stylesheet" href="Styles/style.css" />
   </head>
   <body>
-    <h1>fitness</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia fugiat, fugit temporibus culpa consequuntur assumenda quia ea accusamus hic expedita molestiae. Mollitia nam adipisci accusamus saepe molestias! Culpa hic voluptates tenetur aliquam velit, iusto nemo, provident quis aspernatur perferendis doloribus perspiciatis, aliquid eos molestias corrupti qui quae obcaecati necessitatibus nihil. Quas sit repudiandae necessitatibus commodi soluta delectus tenetur, blanditiis dolorem ipsam ratione quidem. Est minima rerum deleniti eum, quibusdam ipsam enim maxime tempore nemo architecto placeat recusandae dolores optio voluptates earum temporibus sint nihil! Doloremque, quo? Ex iure ullam fugiat quisquam possimus. Ut nesciunt quibusdam aperiam rem iste ea harum?</p>
+    <!---Header-->
+    <header>
+      <nav class="navbar display-flex">
+        <div class="logo">
+          <h1 class="brand-name"><i>Fitness</i></h1>
+        </div>
+
+        <div class="nav-option">
+          <ul class="nav-item display-flex">
+            <li><a href="#" class="home-clr clr-org">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="About">About</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="banner container display-flex">
+        <div class="banner-content">
+          <h3>Get body in <span>shape</span> & stay healthy</h3>
+          <p>
+            A huge selection of health and fitness content, healthy recipes and
+            transformation stories to help you get fit and stay fit!
+          </p>
+          <div class="hero-btn">
+            <button class="banner-btn clr-org">Join Club Now!</button>
+            <button class="download-app">Download App</button>
+          </div>
+        </div>
+        <div class="banner-images">
+          <!---Work out Videos-->
+          <div class="free-workout">
+            <h4>500+</h4>
+            <p>Free Workout Videos</p>
+          </div>
+          <!---End Work out Videos-->
+          <div class="video-tutorial display-flex">
+            <div class="play-icon">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="tutorial-title">
+              <h4>350+</h4>
+              <p>Video tutorial</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!---End of Header-->
+    <!---Main Section of this website-->
+    <main>
+      <!---Habit Section-->
+      <section class="habits containter">
+        <div class="habit-content-heading">
+          <h3>Change Your Habits</h3>
+          <p>
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+        </div>
+        <!---Image Card-->
+        <div class="habbits-content-images display-flex">
+          <!--Image-card-1-->
+          <div class="img-card">
+            <img src="./images/image 3.png" alt="" />
+            <h4>Movement</h4>
+            <p>We believe fitness should be accessible to everyone</p>
+          </div>
+          <!--End Image-card-1-->
+          <!--Image-card-2-->
+          <div class="img-card">
+            <img src="./images/image 2.png" alt="" />
+            <h4>Time</h4>
+            <p>We believe fitness should be accessible to everyone</p>
+          </div>
+          <!--End Image-card-2-->
+          <!--Image-card-3-->
+          <div class="img-card">
+            <img src="./images/image 4.png" alt="" />
+            <h4>Practice</h4>
+            <p>We believe fitness should be accessible to everyone</p>
+          </div>
+          <!--End Image-card-3-->
+          <!--Image-card-4-->
+          <div class="img-card">
+            <img src="./images/image 5.png" alt="" />
+            <h4>Weight Loss</h4>
+            <p>We believe fitness should be accessible to everyone</p>
+          </div>
+          <!--End Image-card-4-->
+        </div>
+        <!---End Image Card-->
+      </section>
+      <!---End Habit Section-->
+      <!---Runway  Section-->
+      <section class="container display-flex runway">
+        <div class="runway-content">
+          <h3>Run an Extra Mile Easily</h3>
+          <p>
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym. With hundreds of
+            professional workouts.
+          </p>
+          <button class="clr-org runway-btn">Join Now</button>
+        </div>
+        <div class="runway-images">
+          <img src="./images/run.jpg" alt="" />
+        </div>
+      </section>
+      <!---End of Runway  Section-->
+    </main>
+    <!---End Main Section of this website-->
+  </body>
 </html>

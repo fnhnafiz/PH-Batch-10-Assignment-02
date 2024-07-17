@@ -2,4 +2,288 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+/*
+Shared Colors
+*/
+body {
+  background-color: black;
+  color: white;
+}
+header {
+  /* background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0.2) 100%
+  ); */
+  background-color: #222222;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.display-flex {
+  display: flex;
+}
+.clr-org {
+  background-color: #e6533c;
+}
+p {
+  color: #ffffff;
+  opacity: 50%;
+  font-size: 18px;
+}
+/*
+Navbar Styled
+*/
+.navbar {
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin: 40px auto;
+}
+.brand-name {
+  color: #e6533c;
+  font-size: 36px;
+  font-weight: 800;
+}
+.nav-item {
+  width: 465px;
+  border: 1px solid #ffffff59;
+  border-radius: 50px;
+  justify-content: space-between;
+  padding: 12px 5px;
+}
+.nav-item li {
+  list-style: none;
+}
+.nav-item li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+}
+.home-clr {
+  padding: 8px 20px;
+  border-radius: 50px;
+}
+.About {
+  padding-right: 20px;
+}
+/**
+Banner Section Styles
+*/
+.banner {
+  height: 580px;
+  /* border: 2px solid white; */
+  align-items: center;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-content h3 {
+  font-size: 4.8rem;
+  font-weight: 900;
+  line-height: 120%;
+  color: #ffffff;
+  padding-right: 30px;
+}
+.banner-content h3 span {
+  font-family: "Miama", sans-serif;
+  font-weight: normal;
+  font-size: 9rem;
+}
+.banner-content p {
+  padding-right: 100px;
+  margin: 28px 0;
+}
+.banner-btn {
+  padding: 16px 46px;
+  border: none;
+  border-radius: 50px;
+  line-height: 22px;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.download-app {
+  padding: 16px 46px;
+  border: 1.5px solid #ffffff;
+  border-radius: 50px;
+  line-height: 22px;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: none;
+  /* background-color: black; */
+  margin-left: 14px;
+}
+.banner-images {
+  height: 580px;
+  width: 50%;
+  background-image: url(../images/Images\ 2.png);
+  background-position: right;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  position: relative;
+}
+.free-workout {
+  width: 193px;
+  height: 98px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 17px 24px;
+  position: absolute;
+  top: 125px;
+  right: -55px;
+}
+.free-workout h4 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 40px;
+}
+.free-workout p {
+  font-size: 0.81rem;
+  font-weight: 400;
+  margin-top: 5px;
+  line-height: 20px;
+}
+.video-tutorial {
+  width: 206px;
+  height: 96px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 70px;
+  left: 100px;
+}
+.video-tutorial h4 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 24px;
+}
+.video-tutorial p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 8px;
+}
+.play-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e6533c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*
+Habbits Section Styles
+*/
+.habits {
+  margin-top: 100px;
+}
+.habit-content-heading {
+  width: 671px;
+  height: 120px;
+  margin: 0 auto;
+}
+.habit-content-heading h3 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 120%;
+}
+.habit-content-heading p {
+  font-size: 0.88rem;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 14px;
+}
+.habbits-content-images {
+  width: 90%;
+  height: 274px;
+  margin: 58px auto 0px;
+  justify-content: space-around;
+}
+.habbits-content-images .img-card {
+  width: 231px;
+  height: 274px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.habbits-content-images .img-card img {
+  border-radius: 50%;
+  border: 2px solid #191919;
+}
+.habbits-content-images .img-card h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 120%;
+  color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 6px;
+}
+.habbits-content-images .img-card p {
+  font-size: 0.88rem;
+  font-weight: 400;
+  line-height: 18px;
+}
+/*
+Runway Styles
+**/
+.runway {
+  margin-top: 100px;
+  height: 371px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 160px;
+  background: #222222;
+  border-radius: 10px;
+}
+.runway-content {
+  padding-left: 45px;
+}
+.runway-content h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 120%;
+  margin-bottom: 14px;
+}
+.runway-content p {
+  font-size: 0.88rem;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 34px;
+}
+.runway-btn {
+  padding: 16px 71px;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 22px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.runway-images img {
+  width: 80%;
+  margin-left: 70px;
+  border-radius: 10px;
 }
