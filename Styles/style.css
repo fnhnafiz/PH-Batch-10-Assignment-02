@@ -452,13 +452,11 @@ Teammate Styles
 .teammate-image-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 40px;
-  justify-content: center;
-  align-items: center;
+  row-gap: 28px;
+  column-gap: 10px;
   background-color: #1a1a1a;
   border-radius: 15px;
   padding: 20px 20px;
-  margin: 0 auto;
 }
 .img-card-teammate {
   width: 310px;
@@ -467,7 +465,7 @@ Teammate Styles
   margin-left: 20px;
 }
 .img-card-teammate img {
-  width: 100%;
+  width: 95%;
   border-radius: 15px;
   display: grid;
   place-items: center;
