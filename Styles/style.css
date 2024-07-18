@@ -12,12 +12,12 @@ body {
   color: white;
 }
 header {
-  /* background: linear-gradient(
+  background: linear-gradient(
     180deg,
     rgb(17, 17, 17),
     rgba(119, 119, 119, 0.2) 100%
-  ); */
-  background-color: #222222;
+  );
+  /* background-color: #222222; */
 }
 .container {
   width: 90%;
@@ -286,4 +286,143 @@ Runway Styles
   width: 80%;
   margin-left: 70px;
   border-radius: 10px;
+}
+/*
+Excercises Training Styles
+*/
+.Exercises-training {
+  margin-top: 100px;
+  height: 581px;
+  border: 2px solid red;
+}
+/*
+BMI Calculate Styles
+*/
+.bmi-calculate {
+  width: 100%;
+  /* margin-top: 100px; */
+}
+.bmi-calculate-heading {
+  width: 671px;
+  height: 120px;
+  margin: 88px auto;
+}
+.bmi-calculate-heading h3 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+}
+.bmi-calculate-heading p {
+  margin-top: 14px;
+  font-size: 0.88rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+.BMI-main-container {
+  background-color: #222222;
+  height: 487px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bmi-calculate-container {
+  align-items: center;
+}
+.table-chart h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 40px;
+}
+table {
+  width: 320px;
+  border-collapse: collapse;
+  text-align: left;
+}
+th,
+td {
+  border: 1px solid #383838;
+  padding: 15px;
+}
+th {
+  font-weight: 600;
+  color: #ffffff;
+}
+td {
+  color: #919191;
+  font-weight: 400;
+}
+.calculate-your-bmi {
+  width: 580px;
+  height: 387px;
+  margin-left: 160px;
+  padding: 30px 0;
+}
+.calculate-your-bmi h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 14px;
+}
+.calculate-your-bmi p {
+  font-size: 0.88rem;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.calculate-input {
+  width: 100%;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row: span 2;
+  gap: 12px; */
+}
+form input {
+  width: 275px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: transparent;
+  padding: 18px;
+  background-color: #393939;
+}
+.sex {
+  width: 275px;
+  height: 50px;
+  border-radius: 8px;
+  border: transparent;
+  padding: 10px 0 10px 10px;
+  background-color: #393939;
+  color: #b0b0b0;
+  font-weight: 400;
+  font-size: 0.88rem;
+}
+.activity {
+  width: 98%;
+  height: 50px;
+  border-radius: 8px;
+  border: transparent;
+  padding: 10px 0 10px 10px;
+  margin-bottom: 30px;
+  color: #b0b0b0;
+  background-color: #393939;
+  font-weight: 400;
+  font-size: 0.88rem;
+}
+input::placeholder {
+  color: #b0b0b0;
+  font-weight: 400;
+  font-size: 0.88rem;
+}
+.calculate-btn {
+  border: none;
+  padding: 10px 30px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 22px;
+  border-radius: 50px;
+  cursor: pointer;
 }
