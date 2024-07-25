@@ -178,24 +178,32 @@
               </table>
             </div>
             <div class="calculate-your-bmi">
-              <h3>Calculate your BMI</h3>
-              <p>
-                We believe fitness should be accessible to everyone, everywhere,
-                regardless of income or access to a gym.
-              </p>
-
+              <div class="calculate-bmi-heading">
+                <h3>Calculate your BMI</h3>
+                <p>
+                  We believe fitness should be accessible to everyone,
+                  everywhere, regardless of income or access to a gym.
+                </p>
+              </div>
               <form>
-                <input type="text" placeholder="Height/cm" />
-                <input type="text" placeholder="Weight/kg" />
-                <input type="text" placeholder="Age" />
-                <select class="sex">
-                  <option>Sex</option>
-                  <option>Male</option>
-                  <option>Female</option>
-                </select>
-                <select class="activity">
-                  <option>Select an activity factor</option>
-                </select>
+                <div class="input-users">
+                  <input type="text" placeholder="Height/cm" />
+                  <input type="text" placeholder="Weight/kg" />
+                </div>
+                <div>
+                  <input type="text" placeholder="Age" />
+                  <select class="sex">
+                    <option>Sex</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                  </select>
+                </div>
+
+                <div>
+                  <select class="activity">
+                    <option>Select an activity factor</option>
+                  </select>
+                </div>
 
                 <button type="submit" class="calculate-btn clr-org">
                   Calculate

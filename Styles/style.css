@@ -13,7 +13,10 @@ body {
 }
 header {
   background: linear-gradient(
-    180deg,
+    to bottom,
+    #141414,
+    #222222,
+    #141414,
     rgb(17, 17, 17),
     rgba(119, 119, 119, 0.2) 100%
   );
@@ -75,7 +78,7 @@ Navbar Styled
 Banner Section Styles
 */
 .banner {
-  height: 580px;
+  /* height: 580px; */
   /* border: 2px solid white; */
   align-items: center;
 }
@@ -195,11 +198,10 @@ Habbits Section Styles
 .habits {
   margin-top: 100px;
 }
-.habit-content-heading {
+/* .habit-content-heading {
   width: 671px;
-  height: 120px;
   margin: 0 auto;
-}
+} */
 .habit-content-heading h3 {
   text-align: center;
   font-size: 3rem;
@@ -216,7 +218,7 @@ Habbits Section Styles
 }
 .habbits-content-images {
   width: 90%;
-  height: 274px;
+  /* height: 274px; */
   margin: 58px auto 0px;
   justify-content: space-around;
 }
@@ -249,12 +251,13 @@ Runway Styles
 **/
 .runway {
   margin-top: 100px;
-  height: 371px;
+  /* height: 371px; */
   align-items: center;
   justify-content: space-between;
   gap: 160px;
   background: #222222;
   border-radius: 10px;
+  padding: 40px 20px;
 }
 .runway-content {
   padding-left: 45px;
@@ -284,7 +287,7 @@ Runway Styles
 }
 .runway-images img {
   width: 80%;
-  margin-left: 70px;
+  margin-left: 100px;
   border-radius: 10px;
 }
 /*
@@ -303,9 +306,8 @@ BMI Calculate Styles
   /* margin-top: 100px; */
 }
 .bmi-calculate-heading {
-  width: 671px;
-  height: 120px;
   margin: 88px auto;
+  padding-left: 70px;
 }
 .bmi-calculate-heading h3 {
   font-size: 3rem;
@@ -320,7 +322,7 @@ BMI Calculate Styles
 }
 .BMI-main-container {
   background-color: #222222;
-  height: 487px;
+  /* height: 487px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -379,6 +381,7 @@ td {
   grid-row: span 2;
   gap: 12px; */
 }
+
 form input {
   width: 275px;
   height: 50px;
@@ -401,7 +404,7 @@ form input {
   font-size: 0.88rem;
 }
 .activity {
-  width: 98%;
+  width: 97.5%;
   height: 50px;
   border-radius: 8px;
   border: transparent;
@@ -434,7 +437,6 @@ Teammate Styles
   max-width: 1060px;
 }
 .teammate-heading {
-  width: 670px;
   margin: 70px auto;
   text-align: center;
 }
@@ -565,4 +567,168 @@ footer .copyright {
   font-weight: 400;
   line-height: 24px;
   color: #8d8d8d;
+}
+/**
+Media Quaries
+*/
+@media screen and (max-width: 576px) {
+  .Exercises-training {
+    display: none;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  html {
+    font-size: 12px;
+  }
+  nav {
+    width: 90%;
+  }
+  nav .nav-option {
+    display: none;
+  }
+  .banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .banner-content {
+    width: 100%;
+  }
+  .banner-content h3 {
+    font-size: 3rem;
+    padding-right: 80px;
+    font-weight: 900;
+    line-height: 120%;
+  }
+  .banner-content h3 span {
+    font-size: 3rem;
+  }
+  .banner-content p {
+    padding-right: 40px;
+  }
+  .hero-btn {
+    width: 100%;
+    display: flex;
+  }
+  .banner-btn {
+    padding: 10px 30px;
+  }
+  .download-app {
+    padding: 10px 25px;
+  }
+  .banner-images {
+    width: 100%;
+    background-position: center;
+    position: relative;
+  }
+  .free-workout {
+    width: 130px;
+    height: 70px;
+    padding: 7px 15px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+  }
+  .free-workout h4 {
+    font-size: 2.5rem;
+    line-height: 120%;
+    font-weight: 900;
+  }
+  .free-workout p {
+    margin: 0;
+  }
+  .video-tutorial {
+    width: 144px;
+    height: 65px;
+    position: absolute;
+    top: 272px;
+    left: 10px;
+  }
+  .video-tutorial p {
+    margin: 0;
+  }
+  .play-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .habits {
+    margin-top: 30px;
+  }
+  .habit-content-heading {
+    padding: 0 10px;
+  }
+  .habit-content-heading h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 120%;
+  }
+  .habit-content-heading p {
+    padding: 0 65px;
+  }
+  .habbits-content-images {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .runway {
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px 20px;
+    margin-top: 30px;
+  }
+  .runway-content {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .runway-images img {
+    margin-left: 0;
+    width: 100%;
+  }
+  .BMI-main-container {
+    padding: 45px 0;
+  }
+  .bmi-calculate-heading {
+    margin: 15px 0;
+    padding-left: 20px;
+  }
+  .bmi-calculate-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .calculate-your-bmi {
+    margin-left: 0;
+  }
+  .calculate-bmi-heading {
+    width: 40%;
+  }
+  form input,
+  .sex {
+    width: 158px;
+  }
+  .activity {
+    width: 330px;
+  }
+  .teammate-heading {
+    margin: 40px 0;
+  }
+  .teammate-image-gallery {
+    grid-template-columns: 1fr;
+    padding: 25px 0;
+  }
+  .containerX {
+    margin: 0;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  footer {
+    margin-top: 30px;
+  }
+  .footer-logo {
+    width: 100%;
+  }
 }
