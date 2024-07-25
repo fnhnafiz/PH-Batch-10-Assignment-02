@@ -40,6 +40,9 @@ p {
 /*
 Navbar Styled
 */
+.menu-bar {
+  display: none;
+}
 .navbar {
   width: 90%;
   justify-content: space-between;
@@ -582,6 +585,13 @@ Media Quaries
   html {
     font-size: 12px;
   }
+  .menu-bar {
+    display: block;
+  }
+  .toggle-bar {
+    font-size: 36px;
+    color: white;
+  }
   nav {
     width: 90%;
   }
@@ -597,7 +607,7 @@ Media Quaries
   }
   .banner-content h3 {
     font-size: 3rem;
-    padding-right: 80px;
+    padding-right: 100px;
     font-weight: 900;
     line-height: 120%;
   }
@@ -664,7 +674,7 @@ Media Quaries
     line-height: 120%;
   }
   .habit-content-heading p {
-    padding: 0 65px;
+    padding: 0 45px;
   }
   .habbits-content-images {
     flex-direction: column;
@@ -701,7 +711,7 @@ Media Quaries
     margin-left: 0;
   }
   .calculate-bmi-heading {
-    width: 40%;
+    width: 45%;
   }
   form input,
   .sex {
@@ -730,5 +740,27 @@ Media Quaries
   }
   .footer-logo {
     width: 100%;
+  }
+
+  .habit-content-heading p {
+    font-size: 1rem;
+  }
+  .habbits-content-images .img-card p {
+    font-size: 1rem;
+  }
+  .runway-content p {
+    font-size: 1rem;
+  }
+  .bmi-calculate-heading p {
+    font-size: 1rem;
+  }
+  .calculate-your-bmi p {
+    font-size: 1rem;
+  }
+  .teammate-heading p {
+    font-size: 1rem;
+  }
+  .footer-logo p {
+    font-size: 1rem;
   }
 }
