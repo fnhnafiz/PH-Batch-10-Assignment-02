@@ -410,6 +410,7 @@ form input {
   color: #b0b0b0;
   font-weight: 400;
   font-size: 0.88rem;
+  border-right: 20px solid transparent;
 }
 .activity {
   width: 97.5%;
@@ -422,6 +423,7 @@ form input {
   background-color: #393939;
   font-weight: 400;
   font-size: 0.88rem;
+  border-right: 20px solid transparent;
 }
 input::placeholder {
   color: #b0b0b0;
@@ -438,6 +440,7 @@ input::placeholder {
   border-radius: 50px;
   cursor: pointer;
 }
+
 /*
 Teammate Styles 
 */
