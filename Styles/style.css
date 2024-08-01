@@ -229,6 +229,8 @@ Habbits Section Styles
   /* height: 274px; */
   margin: 58px auto 0px;
   justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .habbits-content-images .img-card {
   width: 231px;
@@ -779,5 +781,66 @@ Media Quaries
   }
   .footer-logo p {
     font-size: 1rem;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .navbar {
+    width: 80%;
+  }
+  .nav-item {
+    width: 320px;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner-content {
+    width: 90%;
+  }
+  .runway {
+    flex-direction: column-reverse;
+    gap: 50px;
+    padding: 20px 20px;
+  }
+  .runway-content {
+    padding: 0;
+  }
+  .runway-images img {
+    margin: 0;
+    width: 100%;
+  }
+  .bmi-calculate-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .calculate-your-bmi {
+    margin-left: 0;
+  }
+
+  .bmi-calculate-heading {
+    margin: 30px auto;
+    padding-left: 50px;
+  }
+  .bmi-calculate-heading p {
+    width: 90%;
+  }
+  .teammate-image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  .trainer-name h4 {
+    font-size: 0.88rem;
+    font-weight: 900;
+    line-height: 120%;
+  }
+  .footer-container {
+    justify-content: flex-start;
+    margin: 100px 0;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+  .footer-logo {
+    width: 100%;
+    margin-bottom: 100px;
   }
 }
