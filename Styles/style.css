@@ -862,7 +862,7 @@ Media Quaries
 @media screen and (min-width: 1500px) and (max-width: 1920px) {
   .teammate-image-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+    gap: 30px;
   }
 }
