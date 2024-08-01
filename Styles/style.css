@@ -796,6 +796,21 @@ Media Quaries
   .banner-content {
     width: 90%;
   }
+  .banner-images {
+    width: 100%;
+    background-position: center;
+    position: relative;
+  }
+  .free-workout {
+    position: absolute;
+    top: 50px;
+    right: 139px;
+  }
+  .video-tutorial {
+    position: absolute;
+    bottom: 125px;
+    left: 100px;
+  }
   .runway {
     flex-direction: column-reverse;
     gap: 50px;
