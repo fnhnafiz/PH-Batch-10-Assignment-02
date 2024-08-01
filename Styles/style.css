@@ -727,7 +727,7 @@ Media Quaries
     gap: 40px;
   }
   form {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .calculate-your-bmi {
     margin-left: 0;
