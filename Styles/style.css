@@ -859,10 +859,19 @@ Media Quaries
     margin-bottom: 100px;
   }
 }
-@media screen and (min-width: 1500px) and (max-width: 1920px) {
+@media screen and (min-width: 1600px) and (max-width: 1920px) {
   .teammate-image-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
     gap: 30px;
+  }
+  .runway-images img {
+    margin-left: 173px;
+  }
+  .table-chart {
+    width: 50%;
+  }
+  .table-chart table {
+    width: 100%;
   }
 }
