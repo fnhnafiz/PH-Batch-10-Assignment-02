@@ -410,7 +410,7 @@ form .activity {
   grid-column: span 2;
 }
 .sex {
-  height: 50px;
+  height: 52px;
   border-radius: 8px;
   border: transparent;
   padding: 10px 0 10px 10px;
@@ -421,7 +421,7 @@ form .activity {
   border-right: 20px solid transparent;
 }
 .activity {
-  height: 50px;
+  height: 52px;
   border-radius: 8px;
   border: transparent;
   padding: 10px 0 10px 10px;
