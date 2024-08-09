@@ -36,9 +36,11 @@ header {
 }
 .clr-org {
   background-color: #e6533c;
+  transition: all;
 }
 .clr-org:hover {
-  background-color: #e04b3a;
+  background-color: #e93c29;
+  transition: 1s;
 }
 p {
   color: #ffffff;
