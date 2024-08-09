@@ -37,6 +37,9 @@ header {
 .clr-org {
   background-color: #e6533c;
 }
+.clr-org:hover {
+  background-color: #e04b3a;
+}
 p {
   color: #ffffff;
   opacity: 50%;
@@ -305,8 +308,78 @@ Excercises Training Styles
 */
 .Exercises-training {
   margin-top: 100px;
-  height: 581px;
-  border: 2px solid red;
+}
+.plan-heading {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+}
+.plan-description {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 20px 0;
+}
+.pricing-table {
+  width: 350px;
+  border: 2px solid #ffffff2a;
+  border-radius: 16px;
+  padding: 20px;
+}
+.pricing-table img {
+  width: 100%;
+  border-radius: 8px;
+}
+.subcription-card {
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  justify-content: center;
+}
+.pricing-card {
+  text-align: center;
+}
+.pricing-card h3 {
+  font-size: 1.2rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin: 8px 0;
+}
+.pricing-card h4 {
+  font-size: 2rem;
+  color: #e6533c;
+  font-weight: 900;
+  line-height: 120%;
+  margin: 8px 0;
+}
+.pricing-card span {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.sec-pricing-tble {
+  background-color: #3131318a;
+}
+.pricing-card p {
+  margin: 5px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.plan-btn {
+  border: none;
+  padding: 20px 55px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 120%;
+  border-radius: 30px;
+  margin-top: 15px;
+  font-size: 1rem;
+  cursor: pointer;
 }
 /*
 BMI Calculate Styles
@@ -589,9 +662,6 @@ footer .copyright {
 Media Quaries
 */
 @media screen and (max-width: 576px) {
-  .Exercises-training {
-    display: none;
-  }
   /* html,
   body {
     overflow-x: hidden;
@@ -710,6 +780,45 @@ Media Quaries
     margin-left: 0;
     width: 100%;
   }
+  .Exercises-training {
+    margin: 50px auto;
+  }
+  .plan-description {
+    margin: 10px 0;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 24px;
+  }
+  .subcription-card {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .pricing-table {
+    width: 100%;
+  }
+  .pricing-card h3 {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 120%;
+  }
+  .pricing-card h4 {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 120%;
+  }
+  .pricing-card span {
+    font-size: 2rem;
+  }
+  .pricing-card p {
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 24px;
+  }
+  .plan-btn {
+    width: 100%;
+    font-size: 1.5rem;
+  }
   .BMI-main-container {
     padding: 45px 0;
   }
@@ -821,6 +930,21 @@ Media Quaries
   }
   .runway-images img {
     margin: 0;
+    width: 100%;
+  }
+  .pricing-table {
+    width: 100%;
+  }
+  .pricing-card h3 {
+    font-size: 2.3rem;
+  }
+  .pricing-card h4 {
+    font-size: 3rem;
+  }
+  .pricing-card span {
+    font-size: 2.3rem;
+  }
+  .plan-btn {
     width: 100%;
   }
   .bmi-calculate-container {
