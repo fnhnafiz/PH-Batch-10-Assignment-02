@@ -114,6 +114,9 @@ Banner Section Styles
   padding-right: 100px;
   margin: 28px 0;
 }
+.mobile-btn {
+  display: none;
+}
 .banner-btn {
   padding: 16px 46px;
   border: none;
@@ -376,9 +379,9 @@ Excercises Training Styles
 
 .plan-btn {
   border: none;
-  padding: 20px 55px;
+  padding: 18px 55px;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 120%;
   border-radius: 30px;
   margin-top: 15px;
@@ -717,6 +720,11 @@ Media Quaries
   }
   .banner-btn {
     padding: 10px 30px;
+    display: none;
+  }
+  .mobile-btn {
+    display: block;
+    padding: 10px 40px;
   }
   .download-app {
     padding: 10px 25px;
@@ -830,12 +838,29 @@ Media Quaries
     width: 100%;
     font-size: 1.5rem;
   }
+  .plan-heading {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 120%;
+  }
+  .plan-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 24px;
+  }
   .BMI-main-container {
     padding: 45px 0;
   }
   .bmi-calculate-heading {
     margin: 15px 0;
     padding-left: 20px;
+  }
+  .bmi-calculate-heading h3 {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    line-height: 120%;
   }
   .table-chart {
     width: 100%;
@@ -848,8 +873,30 @@ Media Quaries
     align-items: flex-start;
     gap: 40px;
   }
+  .table-chart h3 {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    line-height: 120%;
+  }
+  .calculate-bmi-heading h3 {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    line-height: 120%;
+  }
   form {
     grid-template-columns: 1fr 1fr;
+  }
+  form input::placeholder {
+    font-size: 1rem;
+  }
+  .sex,
+  .activity {
+    font-size: 1rem;
+  }
+  .calculate-btn {
+    font-size: 1.2rem;
   }
   .calculate-your-bmi {
     margin-left: 0;
